@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 1.5rem;
+}
+
+.sse-table {
+    width: calc(100% - 2rem);
+    margin: 0 1rem 3rem;
+    border-collapse: collapse;
+    
+    th {
+        text-align: left;
+        border-bottom: 1px solid black;
+    }
+
+    td {
+        text-align: left;
+        padding: 0 .5rem;
+        border-bottom: 1px solid #CCC;
+    }
+}
+
+.sse-form {
+    display: grid;
+    row-gap: .5rem;
+
+    p {
+        margin: .5rem 0;
+
+        label {
+            display: grid;
+            grid-template-columns: 20% 50% 1fr;
+        }
+
+        input {
+            padding-left: .5rem;
+            padding-right: .5rem;
+        }
+
+        span {
+            position: relative;
+
+            > em {
+                position: absolute;
+                display: block;
+                font-size: .65rem;
+                line-height: .5rem;
+                color: #990000;
+            }
+        }
+        
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: 2 auto;
+    }
+}
+
+.sse-button {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-decoration: none;
+}
+
+.sse-select {
+    font-size: inherit;
+    padding: .25rem 1.5rem .25rem 0.25rem;
+}
+
+.see-checkbox-container {
+    display: grid;
+    grid-template-columns: 20% 20% 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    padding-top: .5rem;
+    padding-bottom: 1.5rem;
+
+    label {
+        /* display: grid;
+        grid-template-columns: 3rem 1fr; */
+        grid-column: 2;
+        margin-left: -.25rem;
+        position: relative;
+        left: -.60rem;
+        
+    }
+
+    label:nth-child(6) {
+        grid-row: 1;
+    }
+    label:nth-child(7) {
+        grid-row: 2;
+    }
+    label:nth-last-child(-n+3) {
+        grid-column: 3;
+    }
+}
+
+.flex {
+    display: flex;
+    padding: 1.5rem 0;
+    
+    > * {
+        flex: 0 0 auto;
+        margin: 0 .75rem;
+    }
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+}

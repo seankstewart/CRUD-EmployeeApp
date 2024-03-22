@@ -1,4 +1,19 @@
-# templates/spa
+# S-Squared Employee App
+S-Squared Enterprises is hiring EnerGov Solutions to develop an application to manage their personnel system.
+
+Read more detail about this project in ./docs/TylerTechEnergovAssessment.docx
+
+## Project Specifications
+### Techstack
+PHP
+MySQL
+Remix (React JS)
+
+This project was built with a PHP backend and a React JS frontend.
+This project uses a mySQL database to store all data.
+
+# Remix README.md
+## templates/spa
 
 This template leverages [Remix SPA Mode](https://remix.run/docs/en/main/future/spa-mode) and the [Remix Vite Plugin](https://remix.run/docs/en/main/future/vite) to build your app as a Single-Page Application using [Client Data](https://remix.run/docs/en/main/guides/client-data) for all of your data loads and mutations.
 
