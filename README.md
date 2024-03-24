@@ -7,7 +7,7 @@ Read more detail about this project in ./docs/TylerTechEnergovAssessment.docx
 ### Techstack
 PHP
 MySQL
-ReactJS via Remix framework
+ReactJS
 Typescript
 CSS
 
@@ -32,6 +32,15 @@ This project uses a mySQL database to store all data.
 * docs - documentation
 * sql - this folder contains sql backup files
 
+### ::TODO
+* add edit methods and logic
+* add delete methods and logic
+* fix ts warnings
+* improve styles
+
+***
+***
+***
 
 # Remix README.md
 ## templates/spa
