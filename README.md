@@ -7,10 +7,32 @@ Read more detail about this project in ./docs/TylerTechEnergovAssessment.docx
 ### Techstack
 PHP
 MySQL
-Remix (React JS)
+ReactJS via Remix framework
+Typescript
+CSS
+
 
 This project was built with a PHP backend and a React JS frontend.
 This project uses a mySQL database to store all data.
+
+### File Structure
+| api [back-end] php files
+    | - .htaccess (local config)
+    | - dbconfig.php - database connection
+    | - index.php - backend entrypoint and API requests
+| app - [front-end] remix files + custom react components 
+    | - components
+        | - Managers.tsx - manager's dropdown component 
+        | - Roles.tsx - role checkboxes component
+    | - routes - remix routing files
+        | - _index.tsx - homepage
+        | - add._index.tsx - add employees page
+        | - edit._index.tsx - edit employee page
+    | - root.tsx - frontend entry point
+    | - styles.css - stylesheet
+| docs - documentation
+| sql - this folder contains sql backup files
+
 
 # Remix README.md
 ## templates/spa
