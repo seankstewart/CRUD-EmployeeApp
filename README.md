@@ -1,5 +1,5 @@
-# S-Squared Employee App
-Review the ./docs folder for project specifications
+# Employee App
+Review the ./docs folder for detailed project specifications
 
 ## Project Specifications
 ### Techstack
