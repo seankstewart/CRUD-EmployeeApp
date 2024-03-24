@@ -1,7 +1,5 @@
 # S-Squared Employee App
-S-Squared Enterprises is hiring EnerGov Solutions to develop an application to manage their personnel system.
-
-Read more detail about this project in ./docs/TylerTechEnergovAssessment.docx
+Review the ./docs folder for project specifications
 
 ## Project Specifications
 ### Techstack
