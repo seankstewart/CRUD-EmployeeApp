@@ -100,11 +100,14 @@ body {
         
     }
 
-    label:nth-child(6) {
+    label:nth-child(5) {
         grid-row: 1;
     }
-    label:nth-child(7) {
+    label:nth-child(6) {
         grid-row: 2;
+    }
+    label:nth-child(7) {
+        grid-row: 3;
     }
     label:nth-last-child(-n+3) {
         grid-column: 3;
